@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textColor="@color/purple_500"
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/song_title"
+        android:paddingLeft="5dp"
+        android:paddingBottom="5dp"/>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textViewYear"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/year"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"/>
+
+
+    <TextView
+        android:id="@+id/textViewDispStars"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/stars"
+        android:textColor="#ce0018"
+        android:paddingBottom="5dp"/>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewSinger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/singers"
+        android:textColor="#23b2ee"
+        android:paddingLeft="5dp"/>
+
+
+</LinearLayout>
